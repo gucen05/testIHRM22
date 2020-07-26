@@ -1,0 +1,37 @@
+{
+  "add_emp": {
+    "request_body": {
+            "username":"比卡丘去吧",
+            "mobile":"15856732125",
+            "timeOfEntry":"2020-07-07",
+            "formOfEmployment":1,
+            "workNumber":"12312313",
+            "departmentName":"销售",
+            "departmentId":"1266699057968001024",
+            "correctionTime":"2020-07-28T16:00:00.000Z"
+        },
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "status_code": 200
+  },
+  "query_emp": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "status_code": 200
+  },
+  "modify_emp": {
+    "request_body": {"username":"葫芦娃"},
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "status_code": 200
+  },
+  "delete_emp": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "status_code": 200
+  }
+}
